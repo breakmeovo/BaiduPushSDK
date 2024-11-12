@@ -1,4 +1,4 @@
-# BaiduPushSDK
+# BaiDuPushSDK
 
 [![platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=plastic)](#)
 [![languages](https://img.shields.io/badge/language-objective--c-blue.svg)](#) 
@@ -21,7 +21,7 @@
 
 ```ruby
 target '<Your Target Name>' do
-    pod 'RSDBPushSDK'
+    pod 'BaiDuPushSDK'
 end
 ```
 先执行 `pod repo update`，再执行 `pod install`。
