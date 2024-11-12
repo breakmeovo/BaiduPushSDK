@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "RSDBPushSDK"
-  spec.version      = "2.1.7"
+  spec.name         = "BaiDuPushSDK"
+  spec.version      = "2.1.8"
   spec.summary      = "Baidu Push SDK for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -27,11 +27,11 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                     百度云推送，我是从百度云官网下载了静态库然后上传到 git， 方便cocoapods使用。
                    DESC
-  spec.author = { "RoveSuperDev" => "rovesuperdev@gmail.com" }
-  spec.homepage     = "https://github.com/RoveSuperDev/BaiduPushSDK.git"
+  spec.author = { "breakmeovo" => "breakmeovo@gmail.com" }
+  spec.homepage     = "https://github.com/breakmeovo/BaiduPushSDK.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  spec.source       = { :git => 'https://github.com/RoveSuperDev/BaiduPushSDK.git',:tag => "#{spec.version}"}
+  spec.source       = { :git => 'https://github.com/breakmeovo/BaiduPushSDK.git',:tag => "#{spec.version}"}
   spec.platform = :ios
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => 'Copyright', :text => 'LICENSE ©2015-2023 Baidu, Inc. All rights reserved' }
+  spec.license      = { :type => 'Copyright', :text => 'LICENSE ©2015-2024 Baidu, Inc. All rights reserved' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
